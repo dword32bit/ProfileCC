@@ -12,7 +12,8 @@ app.secret_key = 'many random bytes'
 db = connector.connect(
     host = 'prodata.mysql.database.azure.com',
     user = 'profilecc',
-    passwd = '1Tambah1=2',
+    password = '1Tambah1=2',
+    port = '3360',
     database = 'profilecc'
 )
 
