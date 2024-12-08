@@ -10,10 +10,10 @@ app.secret_key = 'many random bytes'
 
 #open conection
 db = connector.connect(
-    host = 'localhost',
-    user = 'root',
-    passwd = '',
-    database = 'profilcc'
+    host = 'prodata.mysql.database.azure.com',
+    user = 'profilecc',
+    passwd = '1Tambah1=2',
+    database = 'profilecc'
 )
 
 if db.is_connected():
